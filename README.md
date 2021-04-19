@@ -5,9 +5,20 @@
 
 ## Gradle
 
+### Add the JitPack repository to your build file
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+### Add the dependency
 ```
 dependencies {
-    implementation 'com.kyleduo.switchbutton:library:2.0.0'
+    implementation 'com.github.xici:AndroidSimpleTipDialog:1.0.0'
 }
 ```
 
